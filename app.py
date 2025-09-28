@@ -1,11 +1,10 @@
 import os
 from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
-
-#from dotenv import load_dotenv 
+from dotenv import load_dotenv 
 
 #Cargar las variables de entorno
-#load_dotenv()
+load_dotenv()
 
 #crear instancia
 app =  Flask(__name__)
